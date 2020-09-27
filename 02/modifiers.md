@@ -9,7 +9,7 @@ Note that most of the time you need to have enough geometry in place to actualy 
 
 To work with modifiers, select the object of your choice and in the properties panel (right) select *Modifier Properties* (a little blue wrench icon).  
 
-![](modifiers.jpg)
+![](images/modifiers.jpg)
 
 ### Applying modifiers
 
@@ -20,14 +20,14 @@ If you just create a modifier, it will be proceduraly applied to the mesh, howev
 
 Applying a modifier, therefore 'baking in' the geometry, is done in the dropdown menu accesed via a little arrow next to the apropriate modifier. Click *Apply* to actually bake in the modifier.
 
-![](apply_modifier.jpg)
+![](images/apply_modifier.jpg)
 
 
 ## Subdivision Surface
 
 With this modifier, you are able to quickly and evenly smooth out the geometry. The *Suzanne* on the left is the original model, while the *Suzanne* on the right has a *Subdivision Surface* modifier applied to it.
 
-![](subdivision.jpg)
+![](images/subdivision.jpg)
 
 If you instead of *Catmull-Clark* algorithm choose *Simple*, your mesh will be subdivided, however, no smoothing will actually be applied. This is useful in combination with more modifiers that won't generate their own geometry.
 
@@ -47,7 +47,7 @@ This modifier groups basic means of mesh deformation. On the picture you can fin
 
 You can even set a custom origin point of the deformation. 
 
-![](simple_deform.jpg)
+![](images/simple_deform.jpg)
 
 ## Remesh
 
@@ -55,13 +55,13 @@ To quickly remesh the whole geometry (meaning: to generete a new mesh with very 
 
 *Tip: Do not confuse this with act of **retopology**, that is usualy a manual process of creating an optimal geometry from a high-resolution (perhaps sculpted) model. Meshes generated with this modifier aim to be interesting, not better quality.* 
 
-![](remesh.jpg)
+![](images/remesh.jpg)
 
 ## Boolean
 
 With the *Boolean* modifier, you are able to create an *intersection*, *union*, or *difference* of two objects in the scene. As an example, I have used this modifier on *Suzanne* to get a difference of *Suzanne* and a *Sphere* (essentially, subtracting *Sphere* from *Suzanne*). On the right is the setup, on the left you can see the result after hiding the *Sphere*.
 
-![](boolean.jpg)
+![](images/boolean.jpg)
 
 ## Mirror
 
@@ -71,7 +71,7 @@ You can chose one or more axes of symmetry. More so, you can provide your own *M
 
 
 
-![](mirror.jpg)
+![](images/mirror.jpg)
 
 ## Other modifiers
 
@@ -79,8 +79,14 @@ Some of the modifiers work with texture maps, UV maps, curves, rigs, physics, an
 
 Note that quite a lot of modifiers from *Generate* and *Deform* categories are actually quite simple, and were not discussed here simply because I don't want this document to be super long. Play around, and see what you can create!
 
-![](modifiers_list.jpg)
+![](images/modifiers_list.jpg)
 
 
 ____
-Mistakes? Bad grammar? Unclear wording? kiraa@mail.muni.cz is the one to blame! 
+Mistakes? Bad grammar? Unclear wording? Outright wrong information?\
+*kiraa@mail.muni.cz* is the one to blame!\
+https://github.com/kiraacorsac/VV035-blender-study-materials/
+
+
+Anything and everything dicussed here you can probably find in official documentation too, in more detail.\
+https://docs.blender.org/manual/en/latest/getting_started/index.html

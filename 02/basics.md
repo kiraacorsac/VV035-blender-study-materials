@@ -3,12 +3,12 @@
 ## First-Time Setup
 After the first startup, you will be prompted with a quick-setup screen. These tutorials will assume you have your shortcuts set to *Blender* and your **Spacebar** action to *Search*, however, if you already know the basics you might be more comfortable with another setup. For example, if you are transitioning to Blender from Maya or 3D Max, you might prefer your shortcuts set to *Industry Compatible*. Click *Save New Settings* to proceed.
 
-![](first_time.jpg)
+![](images/first_time.jpg)
 
 ## Splash Screen
 You will be welcomed with this screen on every Blender startup. Most of the time, you'll want to either use *Open...* to open an existing project, or create a new *General* file. 
 
-![](splash.jpg)
+![](images/splash.jpg)
 
 *Tip: Do you make mistakes? I do! Let's raise the **Undo Limit** from the default 32 to something bigger. Go to **Edit (upper menu) -> Preferences -> System** and raise the **Undo Limit** to something more reasonable, like 128.*
 
@@ -20,7 +20,7 @@ In the upper left of the viewport, you can find viewport mode. In the *Layout* w
 
 Also note the selection of workspaces, represented as window tabs on the top. Feel free to explore the different workspaces, and different viewport modes,but make sure you are back in *Layout* and *Object mode* for the next step.
 
-![](layout_workspace.jpg)
+![](images/layout_workspace.jpg)
 
 ## Looking around
 
@@ -50,7 +50,7 @@ Most important thing to know is that you select an object by **Left-clicking** i
 
 As stated before, in the top left you can see a list of every object in the scene, in an *Outliner*. You should have one *Collection* of items - a *Camera*, a *Light* and a default *Cube*. We will focus mainly on the meshes (such as the *Cube*), but note that most of what you learn in this section can be applied to any object type. You can *Hide in Viewport* individual objects by clicking the eye icon next to the object.
 
-![](outliner.jpg)
+![](images/outliner.jpg)
 
 
 ### Transforming objects
@@ -61,33 +61,33 @@ Select the default cube by **Left-clicking** on it. On the left of the screen, a
 
 To quickly move the cube around you can also press the **G** button.
 
-![](move.jpg)
+![](images/move.jpg)
 
 #### Rotating
 Make sure the cube is selected. Similarly to the movement, you can rotate your cube with the icon just bellow it. You can rotate on a single axis by grabbing the handles, perpendicular to the viewport by grabbing the edge of the circle, or as a 'trackball' by grabbing the cube itself.
 
 Use the shortcut **R** to quickly get to rotation mode. Press it multiple times to toggle different modes!
 
-![](rotate.jpg)
+![](images/rotate.jpg)
 
 #### Scaling
 Once again, make sure the cube is selected. The scaling button is once again bellow the last one. Feel free to try out the different transformation handles to scale at different axis, two axes at once, or grab the cube to scale it proportionally on every axis.
 
 To quickly make any object bigger or smaller, use the **S** key.
 
-![](scale.jpg)
+![](images/scale.jpg)
 
 
 ### Adding, removing, copying, pasting
 
 In the viewport, in the upper left section is a row of buttons. Locate the *Add* button, then go to *Mesh*. In there, pick a mesh to be added to the scene. For example, the *Monkey*. Try it out and move theme around the scene!
 
-![](adding.jpg)
+![](images/adding.jpg)
 
 
 Now, when you sufficiently cluttered your scene, it's time to remove some objects. Select some object and press **X** or **Delete** to remove it from the scene permanently.
 
-![](delete.jpg)
+![](images/delete.jpg)
 
 You can also copy and paste any object as you are used to - **Ctrl + C** and **Ctrl + V**. The pasted object appears in the exact same place as the original, be sure to move it.
 
@@ -96,14 +96,14 @@ You can also copy and paste any object as you are used to - **Ctrl + C** and **C
 ### Smooth Shading
 To turn on smooth shading, select and object, then right click on it (it has to be selected first!), and select *Shade Smooth* from the *Object Context Menu*.
 
-![](smooth_shading.jpg)
+![](images/smooth_shading.jpg)
 
 ## Viewport Settings
 
 ### Orthograpic view
 To turn on the orthographic view, find the four buttons in a column on the upper left part of the viewport and click the last one. 
 
-![](orthographic.jpg)
+![](images/orthographic.jpg)
 
 ### Viewport shading
 
@@ -111,13 +111,14 @@ The four buttons on the upper left in a row are used to select how the object in
 
 The following picture is a viewport render with a decent amount of polygons. I was able to run this on computer a running Intel HD integrated graphics card. And this is only a quick demo - *Eevee* can handle much, much more! 
 
-![](eevee.jpg)
+![](images/eevee.jpg)
 
 
 ____
 Mistakes? Bad grammar? Unclear wording? Outright wrong information?\
-*kiraa@mail.muni.cz* is the one to blame!
+*kiraa@mail.muni.cz* is the one to blame!\
+https://github.com/kiraacorsac/VV035-blender-study-materials/
 
 
-Anything and everything dicussed here you can probably find in official documentation too.
+Anything and everything dicussed here you can probably find in official documentation too, in more detail.\
 https://docs.blender.org/manual/en/latest/getting_started/index.html
