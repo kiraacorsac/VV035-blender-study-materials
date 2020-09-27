@@ -59,21 +59,21 @@ As stated before, in the top left you can see a list of every object in the scen
 
 Select the default cube by **Left-clicking** on it. On the left of the screen, a *Move* icon appears as a cross, third from the top. Click the icon while the cube is selected. Transformation handles for moving object around individual axis will appear. Try dragging one of the arrows to move the cube on a single axis, dragging one of the squares to move at two axes at the same time, even grabbing the cube itself to move 'intuitively' in all three axes at the same time! 
 
-To quickly move the cube around you can also press the **G** button.
+To quickly move the cube around you can also press the **G** button. If you press **X**, **Y** or **Z** afterwards, you can move this object one axis at the time.
 
 ![](images/move.jpg)
 
 #### Rotating
 Make sure the cube is selected. Similarly to the movement, you can rotate your cube with the icon just bellow it. You can rotate on a single axis by grabbing the handles, perpendicular to the viewport by grabbing the edge of the circle, or as a 'trackball' by grabbing the cube itself.
 
-Use the shortcut **R** to quickly get to rotation mode. Press it multiple times to toggle different modes!
+Use the shortcut **R** to quickly get to rotation mode. Press it multiple times to toggle different modes, or **X**, **Y**, **Z** to pick axes of rotation! 
 
 ![](images/rotate.jpg)
 
 #### Scaling
 Once again, make sure the cube is selected. The scaling button is once again bellow the last one. Feel free to try out the different transformation handles to scale at different axis, two axes at once, or grab the cube to scale it proportionally on every axis.
 
-To quickly make any object bigger or smaller, use the **S** key.
+To quickly make any object bigger or smaller, use the **S** key. As usual, **X**, **Y**, **Z** picks axes.
 
 ![](images/scale.jpg)
 
