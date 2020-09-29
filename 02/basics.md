@@ -43,6 +43,21 @@ Use **Shift + Middle-click** to move your camera around the viewport.
  
 *Tip: I use the combination of **Zoom To Mouse Position** and orbiting to get basically everywhere. It makes for very intuitive and quick movement. Using panning seems clunky in comparison.*
 
+## Viewport Settings
+
+### Orthograpic view
+To turn on the orthographic view, find the four buttons in a column on the upper left part of the viewport and click the last one. 
+
+![](images/orthographic.jpg)
+
+### Viewport shading
+
+The four buttons on the upper left in a row are used to select how the object in a viewport are represneted. You have a choice between a *Wireframe*, default *Solid*, a *Material Preview* (more on materials later), and *Rendered*. The last one is a great feature of *Eevee Engine*, currently unique to Blender. With *Eevee* you can get realtime previews, comparable in quality to raytraced renders that can take tens of minutes, or even hours to complete with conventional methods!
+
+The following picture is a viewport render with a decent amount of polygons. I was able to run this on computer a running Intel HD integrated graphics card. And this is only a quick demo - *Eevee* can handle much, much more! 
+
+![](images/eevee.jpg)
+
 
 ## Objects
 
@@ -94,32 +109,34 @@ You can also copy and paste any object as you are used to - **Ctrl + C** and **C
 *Tip: The **Monkey** is called **Suzanne**.*
 
 
-### Lights
-
-You can add and remove lights as any other primitive object via the *Add* menu. You have a choice of four different light kinds -- *Point*, *Sun*, *Spot*, *Area*.
-
-#TODO
-
 ### Smooth Shading
 To turn on smooth shading, select and object, then right click on it (it has to be selected first!), and select *Shade Smooth* from the *Object Context Menu*.
 
 ![](images/smooth_shading.jpg)
 
-## Viewport Settings
 
-### Orthograpic view
-To turn on the orthographic view, find the four buttons in a column on the upper left part of the viewport and click the last one. 
+### Lights
 
-![](images/orthographic.jpg)
+You can add and remove lights as any other primitive object via the *Add -> Light* menu. You have a choice of four different light kinds On the picture, you see the *Point*,*Spot* and *Area*. *Sun* is not shown, as it affects the whole scene ad once.
 
-### Viewport shading
+![](images/lights.png)
 
-The four buttons on the upper left in a row are used to select how the object in a viewport are represneted. You have a choice between a *Wireframe*, default *Solid*, a *Material Preview* (more on materials later), and *Rendered*. The last one is a great feature of *Eevee Engine*, currently unique to Blender. With *Eevee* you can get realtime previews, comparable in quality to raytraced renders that can take tens of minutes, or even hours to complete with conventional methods!
 
-The following picture is a viewport render with a decent amount of polygons. I was able to run this on computer a running Intel HD integrated graphics card. And this is only a quick demo - *Eevee* can handle much, much more! 
+Use standard controls for positioning and rotating. In the properties (on the right, look for a green light bulb) You can adjust light *Color* and *Power* (or *Strength* in case of the *Sun*) in the light properties, after selecting a light.
 
-![](images/eevee.jpg)
+![](images/lights_menu.png)
 
+#### Point 
+A standard non-directional light source, like a flame or a naked lightbulb.
+
+#### Sun
+Sun simulates a sun in the sky - position of this light does not matter, only the angle. 
+
+#### Spot
+Spotlight or a handheld torchlight. You can define it's size and the borders in the *Spot Shape* menu. 
+
+### Area
+Like a floodlight, a window or an LED panel. Direction matters. You can define the shape in the properties. 
 
 ____
 Mistakes? Bad grammar? Unclear wording? Outright wrong information?\
