@@ -93,6 +93,13 @@ You can also copy and paste any object as you are used to - **Ctrl + C** and **C
 
 *Tip: The **Monkey** is called **Suzanne**.*
 
+
+### Lights
+
+You can add and remove lights as any other primitive object via the *Add* menu. You have a choice of four different light kinds -- *Point*, *Sun*, *Spot*, *Area*.
+
+#TODO
+
 ### Smooth Shading
 To turn on smooth shading, select and object, then right click on it (it has to be selected first!), and select *Shade Smooth* from the *Object Context Menu*.
 
@@ -120,5 +127,4 @@ Mistakes? Bad grammar? Unclear wording? Outright wrong information?\
 https://github.com/kiraacorsac/VV035-blender-study-materials/
 
 
-Anything and everything dicussed here you can probably find in official documentation too, in more detail.\
-https://docs.blender.org/manual/en/latest/getting_started/index.html
+Anything and everything dicussed here you can probably find in official documentation too, in more detail.
