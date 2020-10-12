@@ -32,7 +32,7 @@ Eeevee is a real-time PBR (physically based rendering) engine. It is not, howeve
 
 Eevee shares a lot of it's material nodes with Cycles, so it's easy to switch between the two, unless you are using exclusive features. Moreover, some of the material nodes such as the default *Principled BSDF* is completly compatible with game engines and you can import it directly. 
 
-However, as *Eevee* is not a true raytracing engine, it can also produce occasional artifacts - especially when it comes to shadows. It can usually be countered with proper settings and high enough sample rate. See the example bellow (notice the artifact on the furthermost wall), and compare with the Cycles Render. Note that it took under 1 second to render. 
+However, as *Eevee* is not a true raytracing engine, it can also produce occasional artifacts - especially when it comes to shadows. It can usually be countered with proper settings and high enough sample rate. See the example bellow (notice the artifact on the furthermost wall), and compare with the Cycles Render. Note that it took under 1 second to render and can be fixed by turning on *Contact Shadows* on individual lights. 
 
 ![](images/eevee_render.png)
 

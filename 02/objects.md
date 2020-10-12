@@ -78,6 +78,8 @@ Spotlight or a handheld torchlight. You can define it's size and the borders in 
 #### Area
 Like a floodlight, a window or an LED panel. Direction matters. You can define the shape in the properties. 
 
+*Tip: If you are using Eevee and working with thin geometry, you might want to turn on addtional features to prevent light bleeding to the other side. In the light properties, open up the **Shadow** dropdown and make sure **Contact Shadows** is turned on.  
+
 ____
 Mistakes? Bad grammar? Unclear wording? Outright wrong information?\
 *kiraa@mail.muni.cz* is the one to blame!\
