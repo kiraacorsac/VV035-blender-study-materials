@@ -7,7 +7,37 @@ https://www.youtube.com/watch?v=4H5W6C_Mbck**
 
 ## Advantages of Principled BSDF shader
 
+http://learnwebgl.brown37.net/10_surface_properties/surface_properties_color.html#id2
 
+## Important Inputs
+
+### Base Color
+
+### Metallic
+
+### Specular (Tint)
+
+### Roughness
+
+### Normal
+
+## Less Important Inputs
+
+### Subsurface (Radius, Color)
+
+### Anisotropic (Rotation, Tangent)
+
+### Sheen (Tint)
+
+### Clearcoat (Roughness, Normal)
+
+### IOR
+
+### Transmission (Roughness)
+
+### Emission
+
+### Alpha
 
 ____
 Mistakes? Bad grammar? Unclear wording? Outright wrong information?\

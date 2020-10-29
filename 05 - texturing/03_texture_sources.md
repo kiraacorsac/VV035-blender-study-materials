@@ -4,7 +4,15 @@ My favorite free PBR texture sources are:
 
 - https://texturehaven.com/
 - https://freepbr.com/
+- https://cc0textures.com/
 - https://www.poliigon.com/ (most of the textures are not free, but they have a decent selection of free textures)
+
+For HDRI textures: 
+- https://hdrihaven.com/
+- http://noemotionhdrs.net/
+- https://hdrmaps.com/freebies/
+- https://hdri-skies.com/
+
 
 **I'm gladly accepting any pull requests expanding this list!**
 
