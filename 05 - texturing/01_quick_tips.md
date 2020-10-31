@@ -1,6 +1,6 @@
 ## HDRI Textures
 
-If you want to make your reflective materials (especially metals) look good, you need to give them something to reflect. To quickly solve this issue, use an *HDRI* texture, or an *Environment Texture*. This is an 360° image that will give the additional pinch of realism that out-of-the-box reflective materials lack. 
+If you want to make your reflective materials (especially metals) look good, you need to give them something to reflect. Also, you might want to quickly set up very realistic ambient lighting for your scene. For this purposes one uses an *HDRI* texture, or an *Environment Texture*. This is an 360° image that will give the additional pinch of realism that out-of-the-box reflective materials lack. 
 
 In shading workspace, in the node editor, use the second-to-leftmost dropdown to change from *Object* to *World*. Press **Shift+A** and select *Environment Texture*. Conect it to the *Color* input of the *Background* node - your 'world' in the 3D viewport should turn bright pink, signaling missing texture. Click the *Open* button and select an HDRI texture of your choice.
 
@@ -16,7 +16,6 @@ Now, in the *Shading* workspace, you can change the material slot you are workin
 
 ![](images/shading.jpg)
 
-## 
 
 
 
