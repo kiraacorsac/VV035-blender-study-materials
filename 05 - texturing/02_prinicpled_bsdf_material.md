@@ -119,24 +119,26 @@ Grayscale (usualy binary) map that provides information where is the material me
 
 ![](chainmail/Chainmail004_2K_Metalness.jpg)
 
-### Roughness
+### Roughness (Microsurface)
 
 Greyscale, encodes reflectivity, as discussed above. Plugs in the *Roughness*.
 ![](chainmail/Chainmail004_2K_Roughness.jpg)
 
 ### Normal
-Distinctly looking two-color map, encodes height differences on the material. Plugs in the *Normal*, through the *Normal Map* node, where you can adjust *Strength* to your liking. 
+Distinctly looking two-color map, encodes height differences on the material. Plugs in the *Normal*, through the *Color* input of *Normal Map* node where you can adjust *Strength* to your liking. 
 
 ![](chainmail/Chainmail004_2K_Normal.jpg)
 
 
-### Opacity
-Encodes visibility. It's a grayscale map, usualy binary. In this case it carves the free space between the individual rings. If using *Eevee*, make sure you have alpha blending enabled in the material properties -> *Settings* -> *Blend Mode* to *Alpha Clip* or *Alpha Blend*.  
+### Opacity (Alpha, Transparency)
+Encodes transparency. It's a grayscale map, usualy binary. In this case it carves the free space between the individual rings. If using *Eevee*, make sure you have alpha blending enabled in the material properties -> *Settings* -> *Blend Mode* to *Alpha Clip* or *Alpha Blend*.  
 
 ![](chainmail/Chainmail004_2K_Opacity.jpg)
 
-### Displacment
+### Displacment (Bump, Height)
 Coarser height informaiton. Greyscale. Plugs in the *Material Ouput* node's *Displacment*. You need to pass it through *Vector Displacment* node first.  Works only in *Cycles*.
+
+Alternatively, create a *Bump* node, plug the *Normal map* in the *Normal*, and this texture in the *Height*. This works also in Eevee.
 
 ![](chainmail/Chainmail004_2K_Displacement.jpg)
 
@@ -149,8 +151,10 @@ Irellevant for Blender and other modeling software, used mostly in games. Blende
 Assinges color to different parts of the texture (i.e. to differentiante materials, individual bricks of brick texture, individual wires of chainmail...)
 
 #### Fuzz:
-Map used to make 'hairy' fabric more realistic. Currently not implemented in Blender.
+Map used to make 'hairy' fabric more realistic. Currently not implemented in Blender - you might find a node network on the internet, however.
 
+#### Anisotropic, subdermal, wrinkle, radiosity...:
+If you encouter them, google is your friend :)
 
 ## Final touches
 You can adjust the scale of every texture at once using this: add *Texture Coordinate* node, *Vector Math* node, connect *UV* output to the *Vector Math* input, set to *Multiply* and adjust scale in the other vector. Plug the output of the *Vector Math* to the *Vector* input of every texture.
@@ -159,6 +163,7 @@ Use nodes in the *Color* category to adjust brightness, contrast, ...
 
 Don't forget to add HDRI.
 
+Don't forget most of the textures need to be in *Non-Color* *Color mode*.
 
 Final result on a *UV Sphere*:
 ![](images/Applied.jpg)
